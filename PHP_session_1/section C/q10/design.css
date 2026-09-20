@@ -1,0 +1,28 @@
+body{
+margin: 0;
+padding: 20px;
+}
+
+
+table{
+    background :linear-gradient(rgb(233, 217, 217),rgb(233, 191, 191),rgb(237, 146, 146));
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0,0,0,5px rgba(208, 86, 86, 0.68);
+}
+tr:hover{
+    scale: 1.05;
+    background-color: antiquewhite;
+}
+
+@keyframes example {
+    0% {background-position: 0% 50%;}
+}
+
+.edit{
+background-color: aqua;
+}
+.delete{
+background-color: blue;
+color: white
+}
