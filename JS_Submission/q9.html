@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q9</title>
+</head>
+<body>
+    <input type="text" name="" id="productid">
+    <button type="button" id="submit">Submit</button>
+    <h3>Product List</h3>
+    <ol id="ol">
+        <li>pen</li>
+        <li>pencil</li>
+        <li>mechanical pencil</li>
+    </ol>
+
+    <script>
+        const b1 = document.getElementById("submit")
+        b1.addEventListener("click",()=>{
+            const data = document.getElementById("productid").value
+            const ol = document.getElementById("ol")
+            console.log(data);
+            const li = document.createElement("li")
+            li.textContent = data
+            ol.append(li)
+            localStorage.setItem("Data",data)
+        })
+    </script>
+</body>
+</html>

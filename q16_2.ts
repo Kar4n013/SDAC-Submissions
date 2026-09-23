@@ -1,3 +1,0 @@
-class OnlineStore extends Store{
-
-}

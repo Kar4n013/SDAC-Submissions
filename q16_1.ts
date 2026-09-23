@@ -1,3 +1,0 @@
-abstract Store{
- getStoreType: String();
-}
